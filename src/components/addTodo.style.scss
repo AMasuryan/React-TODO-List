@@ -1,0 +1,42 @@
+.modal{
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0009;
+    z-index: 5;
+
+  .wnd{
+    width: clamp(300px, 50%, 300px);
+    min-height: 100px;
+    height: min-content;
+    background-color: whitesmoke;
+    margin: auto;
+    inset: 0;
+    position: absolute;
+    padding: 20px;
+
+   form > *{
+        display: block;
+        margin: 0 auto 18px;
+        
+        color: white;
+    }
+
+  }
+}
+
+textarea{
+    resize: none;
+}
+
+.ctrl{
+    text-align: center;
+
+    button{
+        margin: 10px;
+        cursor: pointer;
+        width: 100px;
+    }
+}

@@ -1,0 +1,28 @@
+.todolist{
+    width: clamp(300px, 60%, 800px);
+    min-height: 200px;
+    border: 2px solid aliceblue;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    user-select: none;
+    position: relative;
+   
+    .add{
+        position: absolute;
+        rotate: -90deg;
+        left: -70px;
+        top: 60px;
+        cursor: pointer;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        
+        &:hover{
+            color: green;
+            background-color: #666;
+            scale: 1.1;
+        }
+    }
+    
+}

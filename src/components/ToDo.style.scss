@@ -1,0 +1,66 @@
+article{
+    background-color: #444;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    min-height: 100px;
+
+    .controls{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-basis: 80px;
+        align-items: end;
+        padding-inline: 10px;
+    }
+
+    svg{
+        display: block;
+        height: 40px;
+        cursor: pointer;
+
+        &:nth-of-type(1){
+         &:hover{
+            color: lime;
+            scale: 1.2;
+         }
+        }
+        &:nth-of-type(2){
+            &:hover{
+                color: gold;
+                scale: 1.2;
+             }
+        }
+        &:nth-of-type(3){
+            &:hover{
+                color: red;
+                scale: 1.2;
+             }
+        }
+    }
+    
+
+    h2{
+        margin: 0;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            height: 1px;
+            width: 55%;
+            display: block;
+            background-color: rgb(211, 208, 208);
+            bottom: -5px;
+        }
+    }
+}
+.done  h2::after{
+    background-color: lime;
+}
+
+
+.content{
+    flex: 1 1 auto;
+}
+
