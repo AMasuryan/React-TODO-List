@@ -26,8 +26,8 @@ React-TODO-List - это простое приложение для управл
 1. Форкните репозиторий
 2. Создайте новую ветку (`git checkout -b feature/YourFeature`)
 3. Сделайте коммит ваших изменений (`git commit -m 'Add some feature'`)
-4. Сделайте пуш в ветку (`git push origin feature/YourFeature`)
 5. Создайте новый Pull Request
+4. Сделайте пуш в ветку (`git push origin feature/YourFeature`)
 
 
 
@@ -59,6 +59,6 @@ If you want to contribute to this project, you can do so in the following way:
 1. Fork the repository
 2. Create a new branch (`git checkout -b feature/YourFeature`)
 3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
 5. Create a new Pull Request
+4. Push to the branch (`git push origin feature/YourFeature`)
 
