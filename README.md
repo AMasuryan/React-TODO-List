@@ -29,7 +29,7 @@ React-TODO-List - это простое приложение для управл
 5. Создайте новый Pull Request
 4. Сделайте пуш в ветку (`git push origin feature/YourFeature`)
 
-####
+#
 
 #### React-TODO-List
 
